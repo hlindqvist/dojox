@@ -139,7 +139,7 @@ dxregexp = dojox.validate.regexp = {
 		);
 
 		// Path and query and anchor RE
-		var pathRE = "(/(?:[^?#\\s/]+/)*(?:[^?#\\s/]+(?:\\?[^?#\\s/]*)?(?:#[A-Za-z][\\w.:-]*)?)?)?";
+		var pathRE = "(/(?:[^?#\\s/]+/)*(?:[^?#\\s/]*(?:\\?[^?#\\s/]*)?(?:#[A-Za-z][\\w.:-]*)?)?)?";
 
 		return protocolRE + dxregexp.host(flags) + pathRE;
 	},
